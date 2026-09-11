@@ -1,0 +1,67 @@
+.personaje {
+    position: absolute;
+
+    width: 20%;
+
+    left: 12%;
+    bottom: 5%;
+
+    z-index: 5;
+}
+
+.personaje img {
+    width: 100%;
+    height: auto;
+}
+
+.arbol {
+    position: absolute;
+    width: 21%;
+    left: -2%;
+    bottom: 0%;
+    z-index: 3;
+}
+
+.arbol img {
+    width: 100%;
+    height: auto;
+}
+
+.cartel {
+    position: absolute;
+    width: 16%;
+    left: 61%;
+    top: 70%;
+    z-index: 4;
+}
+
+.cartel img {
+    width: 100%;
+    height: auto;
+}
+
+.casa.destruida {
+    position: absolute;
+    width: 43%;
+    right: 0%;
+    bottom: 35%;
+    z-index: 2;
+}
+
+.casa.destruida img {
+    width: 100%;
+    height: auto;
+}
+
+.cuerpos {
+    position: absolute;
+    width: 29%;
+    left: 19%;
+    bottom: 30%;
+    z-index: 2;
+}
+
+.cuerpos img {
+    width: 100%;
+    height: auto;
+}

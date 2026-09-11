@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #111;
+    overflow: hidden;
+}
+
+.contenedor-principal {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2%;
+}
+
+/* CONTENEDOR DE TODA LA ESCENA */
+.escena {
+    position: relative;
+
+    width: 82vw;
+    max-width: 1500px;
+
+    aspect-ratio: 16 / 9;
+
+    background-image: url("/public/img/fondo1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+}
+
+/* TODAS LAS IMÁGENES DENTRO DE LA ESCENA */
+.escena img {
+    display: block;
+    max-width: none;
+}
+
+/* CONTROLES */
+.controles {
+    width: 6%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.boton-navegacion {
+    width: 60px;
+    height: 60px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: white;
+    color: black;
+
+    font-size: 30px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: transform 0.2s ease;
+}
+
+.boton-navegacion:hover {
+    transform: scale(1.1);
+}
